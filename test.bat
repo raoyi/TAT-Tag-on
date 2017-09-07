@@ -33,7 +33,7 @@ pause > nul
 
 :LenovoAuditDate
 reg export HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Lenovo\MachineInfo AuditDate.txt
-findstr /i /c:"AuditDate" AuditDate.txt
+find /i "AuditDate" AuditDate.txt
 echo 1.path: HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Lenovo\MachineInfo
 echo 2.check the value of "AuditDate" key
 echo then test case 02042 pass
