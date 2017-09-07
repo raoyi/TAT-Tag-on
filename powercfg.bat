@@ -10,4 +10,4 @@ powercfg /x hibernate-timeout-ac 0
 powercfg /x hibernate-timeout-dc 0
 
 echo press any key to continue...
-pause >mul
+pause > nul
