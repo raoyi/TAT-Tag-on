@@ -1,4 +1,13 @@
 @echo off
+:chksys
+systeminfo | find /I "Windows 10"
+if errorlevel 1 (
+echo WARNING!!!
+echo THE SYSTEM IS NOT WIN10
+echo press any key to continue...
+pause > nul
+)
+
 :openwindows
 UserAccountControlSettings.exe
 start rundll32.exe shell32.dll,Control_RunDLL sysdm.cpl,,3
