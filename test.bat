@@ -32,10 +32,10 @@ echo press any key to continue...
 pause > nul
 
 :LenovoAuditDate
+if exist MachineInfo.txt del MachineInfo.txt
 reg export HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Lenovo\MachineInfo MachineInfo.txt
 find /i "AuditDate" MachineInfo.txt
-echo 1.path: HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Lenovo\MachineInfo
-echo 2.check the value of "AuditDate" key
+echo Check the value of "AuditDate" key
 echo then test case 02042 pass
 echo.
 echo press any key to continue...
