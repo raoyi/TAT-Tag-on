@@ -1,4 +1,8 @@
 @echo off
+:UACandSyspropChk
+start UserAccountControlSettings.exe
+rundll32.exe shell32.dll,Control_RunDLL sysdm.cpl,,3
+
 :powercfg
 powercfg /x monitor-timeout-ac 0
 powercfg /x monitor-timeout-dc 0
