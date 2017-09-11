@@ -60,3 +60,16 @@ pause > nul
 :DeviceManager
 start devmgmt.msc
 echo check there is no yellow bang
+echo refer to case 02070
+echo.
+echo press any key to continue...
+pause > nul
+
+:OptionsDriverChk
+start appwiz.cpl
+echo refer to case 02071
+echo.
+echo press any key to continue...
+pause > nul
+
+echo waitting for adding...
