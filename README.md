@@ -1,5 +1,4 @@
-# lcfc-tool
-LCFC test tools
+# LCFC test tools
 - test.bat
 full test flow
 - powercfg.bat
