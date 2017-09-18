@@ -1,8 +1,8 @@
 # LCFC test tools
 - test.bat
 
-full test flow
+  full test flow
 
 - powercfg.bat
 
-power config command
+  power config command
