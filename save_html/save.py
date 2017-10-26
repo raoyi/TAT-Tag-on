@@ -18,4 +18,5 @@ while i<len(items):
     f = open(items[i].split('\n')[0]+".html",'w')
     f.write(r.read())
     f.close()
+    print ("page saving..., ["+`i+1`+"/"+len(items)+"] completed")
     i = i+1
