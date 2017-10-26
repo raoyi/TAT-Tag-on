@@ -14,9 +14,8 @@ items = open(itemfile).readlines()
 
 i = 0
 while i<len(items):
-    r = urllib2.urlopen(url[0]+items[i].split('\n')[0]+url[1])
-    f = open(items[i].split('\n')[0]+".html",'w')
+    r = urllib2.urlopen(url[0]+items[i].split('\n')[0].split(' ')[0]+url[1])
+    f = open(items[i].split('\n')[0].split(' ')[0]+".html",'w')
     f.write(r.read())
     f.close()
-    print ("page saving..., ["+`i+1`+"/"+len(items)+"] completed")
     i = i+1
