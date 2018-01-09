@@ -26,11 +26,11 @@ goto result
 :result
 if %errorlevel% equ 0 (
   @echo off 
-  color 27 
+  color 17 
   echo.
   echo           *********************************************************************************
   echo           **                                                                             **
-  echo           **              PASS!  Audit Date is exist, please check                       **
+  echo           **              Audit Date is exist, please check the value...                 **
   echo           **                                                                             **
   echo           *********************************************************************************  
   echo.
