@@ -39,6 +39,7 @@ if %errorlevel% equ 0 (
 ) else (
    @echo off 
   color 47
+  echo.
   echo           *********************************************************************************
   echo           **                                                                             **
   echo           **        FAILED! FAILED !FAILED! Audit Date not Found!!!                      **
