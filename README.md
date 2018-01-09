@@ -1,8 +1,7 @@
 # LCFC test tools
-- test.bat
 
-  full test flow
+这里会发布对 LCFC PA 测试工具修改后的内容
 
-- powercfg.bat
+- TAT TOOL
 
-  power config command
+用法：覆盖到 TAT3.2_20171122 工具的相应位置

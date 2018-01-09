@@ -1,0 +1,289 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <CaseName>Lenovo Audit Date</CaseName>
+    <Target>Start "" "%cd%\tools\AuditDate.bat"</Target>
+    <Result>Not Run</Result>
+    <Auto>Y</Auto>
+    <OS>10</OS>
+  </Table>
+  <Table>
+    <CaseName>CSUP Check</CaseName>
+    <Target>Start "" "%cd%\tools\csup.bat"</Target>
+    <Result>Not Run</Result>
+    <Auto>Y</Auto>
+    <OS>10</OS>
+  </Table>
+  <Table>
+    <CaseName>Bad Return Code Check</CaseName>
+    <Target>Start "" "%cd%\tools\BadReturn.bat"</Target>
+    <Result>Not Run</Result>
+    <Auto>Y</Auto>
+    <OS>7,8,10</OS>
+  </Table>
+  <Table>
+    <CaseName>C Drive Check</CaseName>
+    <Target>Start "" "%cd%\tools\CheckCDrive.bat"</Target>
+    <Result>Not Run</Result>
+    <Auto>Y</Auto>
+    <OS>7,8,10</OS>
+  </Table>
+  <Table>
+    <CaseName>Event Viewer Check</CaseName>
+    <Target>Start "" "%cd%\tools\EventViewCHK.bat"</Target>
+    <Result>Not Run</Result>
+    <Auto>Y</Auto>
+    <OS>7,8,10</OS>
+  </Table>
+  <Table>
+    <CaseName>Lenovo Wallpaper Check</CaseName>
+    <Target>Start "" "%cd%\tools\CheckWallpaper.bat"</Target>
+    <Result>Not Run</Result>
+    <Auto>Y</Auto>
+    <OS>7,8,10</OS>
+  </Table>
+  <Table>
+    <CaseName>Device Manager and WOL Check</CaseName>
+    <Target>Start "" "%cd%\tools\DeviceCheck.bat"</Target>
+    <Result>Not Run</Result>
+    <Auto>Y</Auto>
+    <OS>7,8,10</OS>
+  </Table>
+  <Table>
+    <CaseName>Disk magement Check for Win10</CaseName>
+    <Target>Start "" "%cd%\tools\DiskManagement.bat"</Target>
+    <Result>Not Run</Result>
+    <Auto>Y</Auto>
+    <OS>10</OS>
+  </Table>
+  <Table>
+    <CaseName>Power Plan (Banlanced) Setting Check for Win10</CaseName>
+    <Target>Start "" "%cd%\tools\PowerOptionCHK.bat"</Target>
+    <Result>Not Run</Result>
+    <Auto>Y</Auto>
+    <OS>10</OS>
+  </Table>
+  <Table>
+    <CaseName>Lenovo Themes Check for Win10</CaseName>
+    <Target>Start "" "%cd%\tools\Win10ThemesCHK.bat"</Target>
+    <Result>Not Run</Result>
+    <Auto>Y</Auto>
+    <OS>10</OS>
+  </Table>
+  <Table>
+    <CaseName>Mark File</CaseName>
+    <Target>Start "" "%cd%\tools\Mark-File.bat"</Target>
+    <Result>Not Run</Result>
+    <Auto>Y</Auto>
+    <OS>7,8,10</OS>
+  </Table>
+  <Table>
+    <CaseName>Checklogo</CaseName>
+    <Target>Start "" "%cd%\tools\Checklog.bat"</Target>
+    <Result>Not Run</Result>
+    <Auto>Y</Auto>
+    <OS>7,8</OS>
+  </Table>
+  <Table>
+    <CaseName>Image Adoption Validation Check</CaseName>
+    <Target>Start "" "%cd%\tools\ImageAdoptionValidationTool.bat"</Target>
+    <Result>Not Run</Result>
+    <Auto>Y</Auto>
+    <OS>10</OS>
+  </Table>
+  <Table>
+    <CaseName>Jumpstart 2018</CaseName>
+    <Target>Start "" "%cd%\tools\Jumpstart2018.bat"</Target>
+    <Result>Not Run</Result>
+    <Auto>Y</Auto>
+    <OS>7,8,10</OS>
+  </Table>
+  <Table>
+    <CaseName>Driver Assessment Check - For RS3</CaseName>
+    <Target>Start "" "%cd%\tools\DriverAssessment_Kabylake.bat"</Target>
+    <Result>Not Run</Result>
+    <Auto>N</Auto>
+    <OS>10</OS>
+  </Table>
+  <Table>
+    <CaseName>Driver Assessment Check - For RS2 (Skylake and before)</CaseName>
+    <Target>Start "" "%cd%\tools\DriverAssessment_old.bat"</Target>
+    <Result>Not Run</Result>
+    <Auto>N</Auto>
+    <OS>10</OS>
+  </Table>
+  <Table>
+    <CaseName>OS Version Check - Winver</CaseName>
+    <Target>C:\Windows\System32\winver.exe</Target>
+    <Result>Not Run</Result>
+    <Auto>N</Auto>
+    <OS>7,8,10</OS>
+  </Table>
+  <Table>
+    <CaseName>Windows Edition and Activation</CaseName>
+    <Target>C:\Windows\System32\control.exe /name Microsoft.System</Target>
+    <Result>Not Run</Result>
+    <Auto>N</Auto>
+    <OS>7,8,10</OS>
+  </Table>
+  <Table>
+    <CaseName>C&amp;L Region Confirmation</CaseName>
+    <Target>C:\Windows\System32\rundll32.exe shell32.dll,Control_RunDLL intl.cpl,,1</Target>
+    <Result>Not Run</Result>
+    <Auto>N</Auto>
+    <OS>7,8,10</OS>
+  </Table>
+  <Table>
+    <CaseName>Disk magement Check for Win7 and Win8</CaseName>
+    <Target>C:\Windows\System32\diskmgmt.msc</Target>
+    <Result>Not Run</Result>
+    <Auto>N</Auto>
+    <OS>7,8</OS>
+  </Table>
+  <Table>
+    <CaseName>Power Option Check</CaseName>
+    <Target>C:\Windows\System32\powercfg.cpl</Target>
+    <Result>Not Run</Result>
+    <Auto>N</Auto>
+    <OS>7,8,10</OS>
+  </Table>
+  <Table>
+    <CaseName>Start Menu and Taskbar Check - Startpin Config (Redstone)</CaseName>
+    <Target>1. Most Used: Windows Defender, Create USB Recovery, WRITEit (Pen Support Only)
+2. Start Menu: Microsoft Office (Excel, PowerPoint, Word), Lenovo Companion, Lenovo Settings
+3. Taskbar: Cortana, Task View Button, Edge Browser, File Explorer, Windows Store
+</Target>
+    <Result>Not Run</Result>
+    <Auto>N</Auto>
+    <OS>7,8,10</OS>
+  </Table>
+  <Table>
+    <CaseName>Lenovo Themes Check for Win7 and Win8</CaseName>
+    <Target>C:\Windows\System32\control.exe /name Microsoft.Personalization</Target>
+    <Result>Not Run</Result>
+    <Auto>N</Auto>
+    <OS>7,8</OS>
+  </Table>
+  <Table>
+    <CaseName>Screen Default Resolution Check</CaseName>
+    <Target>C:\Windows\System32\desk.cpl</Target>
+    <Result>Not Run</Result>
+    <Auto>N</Auto>
+    <OS>7,8,10</OS>
+  </Table>
+  <Table>
+    <CaseName>DirectX Check</CaseName>
+    <Target>C:\Windows\System32\dxdiag.exe</Target>
+    <Result>Not Run</Result>
+    <Auto>N</Auto>
+    <OS>7,8,10</OS>
+  </Table>
+  <Table>
+    <CaseName>IE Basic Check (Version, Homepage) for Win7 and Win8</CaseName>
+    <Target>Start "" "%cd%\tools\IECheck.bat"</Target>
+    <Result>Not Run</Result>
+    <Auto>N</Auto>
+    <OS>7,8</OS>
+  </Table>
+  <Table>
+    <CaseName>IE Basic Check (Version, Homepage) for Win10</CaseName>
+    <Target>Start "" "%cd%\tools\IECheckWin10.bat"</Target>
+    <Result>Not Run</Result>
+    <Auto>N</Auto>
+    <OS>10</OS>
+  </Table>
+  <Table>
+    <CaseName>Device and Printers and Win10 Device Stage</CaseName>
+    <Target>C:\Windows\System32\control.exe /name Microsoft.Printers</Target>
+    <Result>Not Run</Result>
+    <Auto>N</Auto>
+    <OS>7,8,10</OS>
+  </Table>
+  <Table>
+    <CaseName>NLS Input Check</CaseName>
+    <Target>C:\Windows\System32\control.exe /name Microsoft.Language</Target>
+    <Result>Not Run</Result>
+    <Auto>N</Auto>
+    <OS>7,8,10</OS>
+  </Table>
+  <Table>
+    <CaseName>Application Preinstalled status check</CaseName>
+    <Target>1. All the Microsoft Metro App should be open and work normally.
+2. Especially for Metro Camera.</Target>
+    <Result>Not Run</Result>
+    <Auto>N</Auto>
+    <OS>7,8,10</OS>
+  </Table>
+  <Table>
+    <CaseName>Win10 MDA Driver Validation (Must connect to the Internet)</CaseName>
+    <Target>Start "" "%cd%\tools\MDADriverAudit.bat"</Target>
+    <Result>Not Run</Result>
+    <Auto>N</Auto>
+    <OS>10</OS>
+  </Table>
+  <Table>
+    <CaseName>Hotkey Check</CaseName>
+    <Target>Make sure all the Hotkey is working normally, and the icon shows normally.</Target>
+    <Result>Not Run</Result>
+    <Auto>N</Auto>
+    <OS>7,8,10</OS>
+  </Table>
+  <Table>
+    <CaseName>Multi-touth Check</CaseName>
+    <Target>C:\Windows\System32\mspaint.exe</Target>
+    <Result>Not Run</Result>
+    <Auto>N</Auto>
+    <OS>7,8,10</OS>
+  </Table>
+  <Table>
+    <CaseName>Tablet Mode Check (Yoga and Tablet Only)</CaseName>
+    <Target>Rotation the screen, check the basic function of tablet mode.</Target>
+    <Result>Not Run</Result>
+    <Auto>N</Auto>
+    <OS>7,8,10</OS>
+  </Table>
+  <Table>
+    <CaseName>ACPI Check</CaseName>
+    <Target>Run S3, S4, Restart test in Stress Test Tab.</Target>
+    <Result>Not Run</Result>
+    <Auto>N</Auto>
+    <OS>7,8,10</OS>
+  </Table>
+  <Table>
+    <CaseName>WinRE Check</CaseName>
+    <Target>Start "" "%cd%\tools\WinRECheck.bat"</Target>
+    <Result>Not Run</Result>
+    <Auto>N</Auto>
+    <OS>8,10</OS>
+  </Table>
+  <Table>
+    <CaseName>PBR Reset</CaseName>
+    <Target>1. Matrix test according the arrangement;
+2. Make Sure the Refresh and Reset can be executed successfully.</Target>
+    <Result>Not Run</Result>
+    <Auto>N</Auto>
+    <OS>8,10</OS>
+  </Table>
+  <Table>
+    <CaseName>RNR &amp; Factory Recovery Check</CaseName>
+    <Target>1. Matrix test according the arrangement;
+2. Make Sure the related function works normally. </Target>
+    <Result>Not Run</Result>
+    <Auto>N</Auto>
+    <OS>7</OS>
+  </Table>
+  <Table>
+    <CaseName>System Basic Check After refrersh and reset</CaseName>
+    <Target>a. OOBE (After Reset)
+b. Windows Edition and Activation. 
+c. Icons in Desktop, Start Menu and Taskbar 
+d. Windows (C:) Drive
+e. Themes and Wallpaper 
+f. Device Manager 
+g. Disk Management 
+h. Pre-installed Applications basic Launch and close</Target>
+    <Result>Not Run</Result>
+    <Auto>N</Auto>
+    <OS>8,10</OS>
+  </Table>
+</NewDataSet>
