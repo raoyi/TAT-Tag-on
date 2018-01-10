@@ -36,6 +36,7 @@ if %errorlevel% equ 0 (
   echo           *********************************************************************************  
   echo.
   set returncode=1
+  pause > nul
 
 ) else (
    @echo off 
@@ -47,6 +48,7 @@ if %errorlevel% equ 0 (
   echo           **                                                                             **
   echo           *********************************************************************************  
   echo.
+  pause > nul
 )
 
 if exist "%curpath%\automode.tag" goto end
