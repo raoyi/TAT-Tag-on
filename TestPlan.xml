@@ -1,6 +1,13 @@
 <?xml version="1.0" standalone="yes"?>
 <NewDataSet>
-    <Table>
+  <Table>
+    <CaseName>Check Programs and Features</CaseName>
+    <Target>C:\Windows\System32\appwiz.cpl</Target>
+    <Result>Not Run</Result>
+    <Auto>Y</Auto>
+    <OS>10</OS>
+  </Table>
+  <Table>
     <CaseName>ThinkPad UltraNave Test for Synaptics</CaseName>
     <Target>C:\Windows\System32\main.cpl</Target>
     <Result>Not Run</Result>
