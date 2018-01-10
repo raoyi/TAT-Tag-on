@@ -4,6 +4,8 @@
 
 用法：将 TestPlan.xml文件 和 Tools文件夹 覆盖到 TAT3.2_20171122 工具的相应位置
 
+压缩包下载地址：[https://github.com/raoyi/lcfc-tool/releases](https://github.com/raoyi/lcfc-tool/releases)
+
 增加项目：
 
   1. 检查 CSUP
