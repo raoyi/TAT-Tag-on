@@ -42,7 +42,7 @@ if %errorlevel% equ 0 (
   echo.
   echo           *********************************************************************************
   echo           **                                                                             **
-  echo           **        FAILED! FAILED !FAILED! Audit Date not Found!!!                      **
+  echo           **        FAILED! FAILED! FAILED! Audit Date not Found!!!                      **
   echo           **                                                                             **
   echo           *********************************************************************************  
   echo.
