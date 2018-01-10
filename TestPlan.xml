@@ -37,7 +37,7 @@
   </Table>
   <Table>
     <CaseName>CSUP Check</CaseName>
-    <Target>Start "" "%cd%\tools\csup.bat"</Target>
+    <Target>C:\Windows\csup.txt</Target>
     <Result>Not Run</Result>
     <Auto>Y</Auto>
     <OS>10</OS>
