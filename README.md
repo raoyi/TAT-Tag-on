@@ -1,6 +1,8 @@
 # LCFC TAT Test Tools
 
-用法：覆盖到 TAT3.2_20171122 工具的相应位置
+
+
+用法：将 TestPlan.xml文件 和 Tools文件夹 覆盖到 TAT3.2_20171122 工具的相应位置
 
 增加项目：
 
