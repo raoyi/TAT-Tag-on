@@ -20,7 +20,7 @@ goto end
 
 :Win10
 reg export HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Lenovo\MachineInfo MachineInfo.txt
-find "AuditDate" MachineInfo.txt
+findstr "AuditDate" MachineInfo.txt
 goto result
 
 :result
