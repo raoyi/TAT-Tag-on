@@ -1,6 +1,6 @@
 # LCFC TAT Test Tools
 
-
+说明：基于 TAT3.2_20171122 修改，增加了一些测试项目
 
 用法：将 TestPlan.xml文件 和 Tools文件夹 覆盖到 TAT3.2_20171122 工具的相应位置
 
