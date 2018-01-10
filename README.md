@@ -19,3 +19,5 @@
   6. 打开 WindowsHello
 
   7. 打开 设备管理器 - Devices and Printers
+
+  8. 打开 Settings - Recovery
