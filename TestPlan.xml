@@ -1,6 +1,13 @@
 <?xml version="1.0" standalone="yes"?>
 <NewDataSet>
   <Table>
+    <CaseName>Express Cache - open "Servives"</CaseName>
+    <Target>C:\Windows\System32\services.msc</Target>
+    <Result>Not Run</Result>
+    <Auto>Y</Auto>
+    <OS>10</OS>
+  </Table>
+  <Table>
     <CaseName>Check Programs and Features</CaseName>
     <Target>C:\Windows\System32\appwiz.cpl</Target>
     <Result>Not Run</Result>
