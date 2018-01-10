@@ -17,3 +17,5 @@
   5. 打开 服务 窗口
 
   6. 打开 WindowsHello
+
+  7. 打开 设备管理器 - Devices and Printers
