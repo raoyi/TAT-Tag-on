@@ -4,7 +4,7 @@
 
 用法：将 TestPlan.xml文件 和 Tools文件夹 覆盖到 TAT3.2_20171122 工具的相应位置
 
-release版下载地址：[https://github.com/raoyi/lcfc-tool/releases](https://github.com/raoyi/lcfc-tool/releases)
+release版下载地址：[https://github.com/raoyi/TAT-Tag-on/releases](https://github.com/raoyi/TAT-Tag-on/releases)
 
 实时更新版：[https://github.com/raoyi/TAT-Tag-on/archive/master.zip](https://github.com/raoyi/TAT-Tag-on/archive/master.zip)    (dev supported)
 
