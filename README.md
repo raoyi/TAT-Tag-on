@@ -6,7 +6,7 @@
 
 release版下载地址：[https://github.com/raoyi/lcfc-tool/releases](https://github.com/raoyi/lcfc-tool/releases)
 
-实时更新版：[https://github.com/raoyi/TAT-Tag-on/archive/master.zip](https://github.com/raoyi/TAT-Tag-on/archive/master.zip)
+实时更新版：[https://github.com/raoyi/TAT-Tag-on/archive/master.zip](https://github.com/raoyi/TAT-Tag-on/archive/master.zip)(dev supported)
 
 增加项目：
 
