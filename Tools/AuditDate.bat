@@ -19,6 +19,7 @@ goto end
 goto end
 
 :Win10
+if exist MachineInfo.txt del MachineInfo.txt
 reg export HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Lenovo\MachineInfo MachineInfo.txt
 find "AuditDate" MachineInfo.txt
 goto result
